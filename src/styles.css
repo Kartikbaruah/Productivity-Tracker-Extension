@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #0073e6;
+  }
+  
+  .goal-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e8f4ff;
+    border-radius: 5px;
+  }
+  
+  .goal-input {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .website-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .website-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .website-name {
+    font-weight: bold;
+  }
+  
+  .website-time {
+    color: #0073e6;
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Productivity Tracker",
+    "version": "1.0.0",
+    "description": "Track your productivity, set goals, and monitor time spent on websites.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs",
+      "history"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "index.html" 
+    },
+    "content_security_policy": {
+   "extension_pages": "script-src 'self'; object-src 'self'"
+}
+  }
+  
